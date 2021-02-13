@@ -16,5 +16,5 @@ Confetti has extensive and thorough [documentation](https://confetti-framework.c
 
 ## Running This Application
 Visit your Terminal : 
- > Run ```cp .env.example .env``` to add the .env file on your application
- > Run ```go run main.go``` to fire up your application  then visit (http://localhost:80/) to see your application up and running 🚀
+ * Run ```cp .env.example .env``` to add the .env file on your application
+ * Run ```go run main.go``` to fire up your application  then visit (http://localhost:80/) to see your application up and running 🚀

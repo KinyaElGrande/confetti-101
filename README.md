@@ -14,6 +14,7 @@ many web projects. Confetti is accessible, powerful, and provides tools required
 
 Confetti has extensive and thorough [documentation](https://confetti-framework.com/), making it a breeze to get started.
 
-## License
-
-Confetti is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Running This Application
+Visit your Terminal : 
+ > Run ```cp .env.example .env``` to add the .env file on your application
+ > Run ```go run main.go``` to fire up your application  then visit (http://localhost:80/) to see your application up and running 🚀

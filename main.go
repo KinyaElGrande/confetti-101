@@ -13,7 +13,7 @@ import (
 )
 
 func main() {
-	log.Println("Start " + config.App.Name + " to handle requests")
+	log.Println("Start " + config.App.Name + ":" + strconv.Itoa(config.App.Port) +" to handle requests")
 	server := &net.Server{
 		Addr:         ":" + strconv.Itoa(config.App.Port),
 		Handler:      net.HandlerFunc(HandleKernel),

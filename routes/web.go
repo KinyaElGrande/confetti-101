@@ -3,6 +3,7 @@ package routes
 import (
 	"confetti-framework/app/http/controllers"
 	"confetti-framework/app/http/middleware"
+
 	. "github.com/confetti-framework/foundation/http/routing"
 )
 
@@ -18,4 +19,5 @@ import (
 */
 var Web = Group(
 	Get("/", controllers.Homepage),
+	Get("/pomodoro", controllers.Pomodoro),
 ).Middleware(middleware.Web...)

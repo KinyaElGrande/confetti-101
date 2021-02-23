@@ -23,9 +23,10 @@ func (r RouteServiceProvider) Boot(container inter.Container) inter.Container {
 	collection.Merge(routes.Web)
 
 	// Here you can make your adjustments that apply to all routes:
-	// collection.WhereMulti(map[string]string{
-	// 	"id": "[0-9]+",
-	// })
+	collection.WhereMulti(map[string]string{
+		//the {id} parameter should only be numeric
+		"id": "[0-9]+",
+	})
 
 	// These middlewares should be executed on all routes
 	collection.Middleware(globalMiddlewares...)

@@ -32,7 +32,7 @@ var App = struct {
 	   | any other location as required by the application or its packages.
 	   |
 	*/
-	Name: env.StringOr("APP_NAME", "Confetti"),
+	Name: env.StringOr("APP_NAME", "Pomodoro"),
 
 	/*
 		|--------------------------------------------------------------------------
